@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perdon</title>
+    <title>Jazmin</title>
     <style>
         body {
             display: flex;
@@ -29,7 +29,7 @@
     </style>
 </head>
 <body>
-    <h1>¿Me perdonas? 😢</h1>
+    <h1>Me vas a dar mi foto? 😢</h1>
     <div class="buttons">
         <button id="yesButton">Sí</button>
         <button id="noButton">No</button>
@@ -41,12 +41,12 @@
         document.getElementById('noButton').addEventListener('click', function() {
             noClickCount++;
             if (noClickCount === 5) {
-                alert('Yaaaa perdonameeee.');
+                alert('Yaaaa dame mi fotoooo');
             } else if (noClickCount === 10) {
-                alert('Porfavor te invito una comidita.');
+                alert('Porfavor te invito un cafe.');
             }
             else if (noClickCount === 15) {
-                alert('Te doy lo que quieras pero ya perdoname😢😢😢😢😢😢😢😢😢😢😢😢😢.');
+                alert('Porfaaaa sabes que me la gene es trato justo...');
             }
             this.style.position = 'absolute';
             this.style.top = Math.random() * (window.innerHeight - this.offsetHeight) + 'px';
@@ -54,9 +54,10 @@
         });
 
         document.getElementById('yesButton').addEventListener('click', function() {
-            alert('¡Yo sabia que me ibas a perdonar hater, mucho exito mañana en tu examen tqm!');
+            alert('Jaja ya dijiste que si espero que me la envies.');
             document.getElementById('image').style.display = 'block';
         });
     </script>
 </body>
+
 </html>
