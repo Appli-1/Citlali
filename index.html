@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jazmin</title>
+    <title>Mentirosilla</title>
     <style>
         body {
             display: flex;
@@ -29,7 +29,7 @@
     </style>
 </head>
 <body>
-    <h1>Me vas a dar mi foto? 😢</h1>
+    <h1>Me vas a llamar israel? 😢</h1>
     <div class="buttons">
         <button id="yesButton">Sí</button>
         <button id="noButton">No</button>
@@ -41,12 +41,12 @@
         document.getElementById('noButton').addEventListener('click', function() {
             noClickCount++;
             if (noClickCount === 5) {
-                alert('Yaaaa dame mi fotoooo');
+                alert('Entiende que si solo israel ');
             } else if (noClickCount === 10) {
-                alert('Porfavor te invito un cafe.');
+                alert('JAJAJAJA tu no entiendes');
             }
             else if (noClickCount === 15) {
-                alert('Porfaaaa sabes que me la gene es trato justo...');
+                alert('Porfaaaa te invito un cafe');
             }
             this.style.position = 'absolute';
             this.style.top = Math.random() * (window.innerHeight - this.offsetHeight) + 'px';
@@ -54,11 +54,12 @@
         });
 
         document.getElementById('yesButton').addEventListener('click', function() {
-            alert('Jaja ya dijiste que si, espero que me la envies.');
+            alert('Jaja ya dijiste que si, ni modo');
             document.getElementById('image').style.display = 'block';
         });
     </script>
 </body>
 
 </html>
+
 
